@@ -7,6 +7,7 @@
     <%= render user %>
     <p>
       <%= link_to "Show this user", user %>
+      <%= link_to "Show users first post", user.microposts.first %>
     </p>
   <% end %>
 </div>
